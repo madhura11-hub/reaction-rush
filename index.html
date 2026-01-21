@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reaction Rush ⚡</title>
+  <div class="levels">
+  <button onclick="setLevel('easy')">Easy</button>
+  <button onclick="setLevel('hard')">Hard</button>
+  <button onclick="setLevel('insane')">Insane</button>
+</div>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>⚡ Reaction Rush</h1>
+
+  <div id="gameBox">Click START</div>
+<input 
+  type="text" 
+  id="playerName" 
+  placeholder="Enter your name"
+  maxlength="12"
+/>
+
+  <button id="startBtn">START</button>
+
+  <p id="result"></p>
+  <p id="best">Best: -- ms</p>
+  <h2>🏆 Leaderboard</h2>
+<ul id="leaderboard"></ul>
+<button id="resetBoard">Reset Leaderboard</button>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
